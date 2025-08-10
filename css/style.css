@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  object-fit: cover;
+}
+
+img{
+  vertical-align: top;
 }
 
 /* 共通設定 */
@@ -23,7 +28,7 @@
   background-image: url(../img/icon.png);
   background-repeat: no-repeat;
   background-size: 32px 32px;
-  background-position: center;
+  background-position: center 2px;
   width: 32px;
   height: 32px;
 }
@@ -63,6 +68,7 @@
 
 /* おすすめメニュー */
 .menu-title {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
